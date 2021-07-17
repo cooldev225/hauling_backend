@@ -12,7 +12,7 @@ const bodyParser = require("body-parser");
 
 var connection_string = "**********";
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 80;
 
 const app = express();
 
